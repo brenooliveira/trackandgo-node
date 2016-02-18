@@ -1,0 +1,32 @@
+{
+    "name": "TrackAndGo",
+    "description": "Track Multiples Events",
+    "version": "0.0.1",
+    "homepage": "http://trackandgo.co",
+    "engines": {
+      "node": "4.2.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/brenooliveira/trackandgo.git"
+    },
+    "author": "Breno Oliveira <breno26@gmail.com> (brenooliveira.com.br)",
+    "directories": {
+        "lib": "./lib",
+        "conf": "./conf",
+        "modules": "./modules",
+        "spec": "./spec"
+    },
+    "devDependencies": {
+        "foreman": "~1.4.1",
+        "mocha": "~1.4.2",
+        "should": "~1.1.0"
+    },
+    "dependencies": {
+
+    },
+    "optionalDependencies": {
+        "bcrypt": "0.7.x",
+        "imagemagick": "0.1.x"
+    }
+}
